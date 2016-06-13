@@ -1,0 +1,12 @@
+Day one Answers
+
+#1  moveRight ();
+      moveRight ();
+      useBlue ();
+      draw ();
+
+#2  moveRight ();
+      moveRight ();
+      erase ();
+
+Day two Answers
