@@ -10,3 +10,46 @@ Day one Answers
       erase ();
 
 Day two Answers
+
+#1 var ['b', 'b', 'b', 'b', 'b']
+	
+	moveRight();
+	erase();
+	moveRight();
+
+	moveRight();
+	erase();
+	moveRight();
+
+#2 var ['g', 'g', 'g', '.', '.']
+
+	useBlue();
+	moveRight();
+	draw();
+	moveRight();
+		
+	moveRight();
+	draw();
+	moveRight();
+
+#3 var ['b', '.', '.', '.', '.']
+
+
+
+   var ['g', '.', '.', '.', '.']
+
+
+
+   var ['.', '.', '.', '.', ‘.’]
+
+
+
+
+
+
+
+
+
+
+
+
