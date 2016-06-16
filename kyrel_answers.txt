@@ -42,6 +42,50 @@ Day two Answers
 
    var ['.', '.', '.', '.', ‘.’]
 
+Day 3
+
+#1 var [ 'b', 'b', '.', 'g', 'b' ]
+
+useBlue();
+for(var j=0; j<5; j++) {
+  draw();
+  moveRight();
+}
+
+#2 var [ 'b', '.', '.', '.', '.' ]
+   var [ 'g', '.', '.', '.', '.' ]
+
+if ( onBlue() ) {
+  useBlue()
+} else if ( onGreen() ) {
+  useGreen();
+}
+
+for(var j=0; j<5; j++) {
+  draw();
+  moveRight();
+}
+
+#3 var [ '.', '.', '.', '.', '.' ]
+   var [ '.', '.', '.', '.', '.' ]
+
+
+var n = 3; // make sure this can change!
+
+useGreen();
+for(var i=0; i<n; i++) {
+  draw();
+  moveRight();
+}
+
+#4 var ['b', 'b', 'b', 'b', 'b']
+
+for(var i=0; i<5; i++){
+    if ( i%2 === 0 ){
+        erase();
+    }
+    moveRight();
+}
 
 
 
