@@ -88,7 +88,37 @@ for(var i=0; i<5; i++){
 }
 
 
+Day #4
 
+  #1 var [ 'b', '.', 'g', '.', '.' ]
+
+	[ 'g', 'b', '.', 'g', '.' ]
+
+
+	for(var j=0; j<5; j++) {
+	  if ( onBlue() ) {
+	    useBlue()
+	  } else if ( onGreen() ) {
+	    useGreen();
+	  } else {
+	    draw();
+	  }
+	  moveRight();
+	}
+
+   #2  var   [ 'b', 'b', '.', 'g', 'b' ]
+
+	for(var j=0; j<5; j++) {
+	  if( onBlue() ) {
+	    useGreen();
+	    draw(); // overwrite
+	  } else if( onGreen() ) {
+	    useBlue();
+	    draw(); // overwrite
+	  }
+		
+	  moveRight();
+	}
 
 
 
