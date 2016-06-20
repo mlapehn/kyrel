@@ -1,0 +1,81 @@
+
+Kyrel day 5
+
+#1 var initial_state = [ '.', '.', 'b', '.', '.' ];
+
+	moveRight ();
+	moveRight ();
+	erase ();
+	moveRight ();
+	useBlue ();
+	draw ();
+
+var initial_state = ['g', 'b', '.', '.', 'g'];
+
+	moveRight ();
+	erase ();
+	moveRight();
+	useBlue ();
+	draw ();
+
+#2 var initial_state = [ 'g', 'b', '.', '.', '.' ];
+
+for (var j=0; j<5; j++) {
+	if (onBlue() ) {
+		moveLeft ();
+		erase ();
+	}
+	moveRight ();
+}
+
+var initial_state = [ 'g', 'b', 'b', '.', '.' ]
+
+for (var j=0; j<5; j++) {
+	if (onBlue() ) {
+		erase ();
+		moveLeft ();
+		erase ();
+		moveRight ();
+		moveRight ();
+		useBlue ();
+		draw ();
+	}
+		moveRight ();
+}
+
+#3 var initial_state = ['b', '.', 'b', '.', '.']; 
+
+for (var j=0; j<5; j++) {
+	if (onBlue() ) {
+		erase ();
+		moveRight ();
+		moveRight ();
+		erase ();
+		moveRight ();
+		useBlue ();
+		draw ();
+		moveRight ();
+		useBlue ();
+		moveRight ();
+		useBlue ();
+		draw ();
+	}
+	{break;}
+}
+
+#4 var initial_state = [ '.', 'b', 'b', '.', 'b' ];
+
+for (var j=0; j<5; j++) {
+	if (onBlue() ) {
+		moveLeft ();
+		useBlue ();
+		draw ();
+		moveRight ();
+		moveRight ();
+		moveRight ();
+		erase ();
+		moveRight ();
+		erase ();
+	}
+	moveRight ();
+}
